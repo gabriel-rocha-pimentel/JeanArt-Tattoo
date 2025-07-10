@@ -53,7 +53,7 @@ const Footer = () => {
             className="text-center md:text-left"
           >
             <span className="text-lg font-semibold text-white mb-4 block">Redes Sociais</span>
-            <div className="flex justify-center mb-2 md:justify-start space-x-4">
+            <div className="flex justify-center mb-4 md:justify-start space-x-4">
               <a
                 href="https://www.instagram.com/jean_arttattoodesign/"
                 target="_blank"
@@ -78,7 +78,7 @@ const Footer = () => {
 
         <div className="section-divider my-8"></div>
 
-        <div className="text-center text-gray-400 mt-2">
+        <div className="text-center text-gray-400 mt-4">
           <p>&copy; {currentYear} Jean Art Tattoo Design. Todos os direitos reservados.</p>
           <p className="mt-4 mb-4 text-sm">
             Desenvolvido com ❤️ por <a href='https://techconnect.app.br' target='_blank'>Tech&Connect Branch</a>
