@@ -121,7 +121,7 @@ const About = () => {
           </h2>
           <div className="grid grid-cols-1 md:grid-cols-2 gap-8 items-center max-w-5xl mx-auto">
             <img  alt="Interior do estúdio de Jean Art Tattoo Design, um ambiente profissional e acolhedor"
-                className="w-full h-80 object-cover rounded-lg shadow-lg" src="/assets/og-image.webp" loading="lazy" />
+                className="w-full h-80 object-cover rounded-lg shadow-lg" src="/assets/og-image.png" loading="lazy" />
             <p className="text-base md:text-lg text-gray-300 leading-relaxed text-left max-w-screen-md">
               O estúdio foi projetado para ser mais do que um local de trabalho: é um santuário de criatividade e confiança. Cada detalhe foi pensado para garantir sua segurança, conforto e inspiração, desde a higiene impecável até a atmosfera acolhedora que te deixa à vontade para compartilhar sua histórico.
             </p>
