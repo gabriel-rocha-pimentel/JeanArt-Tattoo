@@ -123,7 +123,7 @@ const About = () => {
             <img  alt="Interior do estúdio de Jean Art Tattoo Design, um ambiente profissional e acolhedor"
                 className="w-full h-80 object-cover rounded-lg shadow-lg" src="../../public/assets/og-image.webp" loading="lazy" />
             <p className="text-base md:text-lg text-gray-300 leading-relaxed text-left max-w-screen-md">
-              O estúdio foi projetado para ser mais do que um local de trabalho: é um santuário de criatividade e confiança. Cada detalhe foi pensado para garantir sua segurança, conforto e inspiração, desde a higiene impecável até a atmosfera acolhedora que te deixa à vontade para compartilhar sua história.
+              O estúdio foi projetado para ser mais do que um local de trabalho: é um santuário de criatividade e confiança. Cada detalhe foi pensado para garantir sua segurança, conforto e inspiração, desde a higiene impecável até a atmosfera acolhedora que te deixa à vontade para compartilhar sua histórico.
             </p>
           </div>
         </motion.div>
@@ -140,29 +140,26 @@ const About = () => {
           </h2>
           
           <div className="relative max-w-4xl mx-auto">
-              <div className="absolute left-1/2 transform -translate-x-1/2 w-0.5 h-full bg-gray-700"></div>
+              <div className="absolute top-8 left-1/2 transform -translate-x-1/2 w-0.5 h-[calc(100%_-_2rem)] bg-gray-700"></div>
               {timeline.map((item, index) => (
               <motion.div
                 key={index}
-                initial={{ opacity: 0, x: index % 2 === 0 ? -50 : 50 }}
+                initial={{ opacity: 0, x: 0 }}
                 whileInView={{ opacity: 1, x: 0 }}
                 viewport={{ once: true }}
                 transition={{ delay: index * 0.1 }}
-                className={`flex items-center mb-12 w-full ${
-                  index % 2 === 0 ? 'flex-row' : 'flex-row-reverse'
-                }`}
-              >
-                <div className="w-1/2 px-4">
-                   <div className={`glass-effect p-6 rounded-lg ${index % 2 === 0 ? 'text-right' : 'text-left'}`}>
+                className={`flex flex-col md:${index % 2 === 0 ? 'flex-row' : 'flex-row-reverse'} items-start md:items-center mb-12 w-full`}>
+                <div className="md:w-1/2 w-full px-4 mb-4 md:mb-0">
+                   <div className="glass-effect p-6 rounded-lg">
                     <div className="text-2xl font-bold text-yellow-400 mb-2">{item.year}</div>
-                    <h3 className="text-xl md:text-2xl font-bold text-white mb-3">{item.title}</h3>
-                    <p className="text-base text-gray-400">{item.description}</p>
+                    <h3 className="text-xl md:text-2xl font-bold text-white mb-3 text-left md:text-${index % 2 === 0 ? 'right' : 'left'}">{item.title}</h3>
+                    <p className="text-base text-gray-400 text-left md:text-${index % 2 === 0 ? 'right' : 'left'}">{item.description}</p>
                   </div>
                 </div>
-                <div className="w-8 h-8 bg-yellow-400 rounded-full relative z-10 flex items-center justify-center">
+                <div className="w-8 h-8 bg-yellow-400 rounded-full relative z-10 flex items-center justify-center mx-auto md:mx-0">
                   <div className="w-4 h-4 bg-black rounded-full"></div>
                 </div>
-                 <div className="w-1/2 px-4"></div>
+                <div className="md:w-1/2 w-full px-4"></div>
               </motion.div>
             ))}
           </div>
