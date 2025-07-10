@@ -1,8 +1,3 @@
-Perfeito. Com base em **todo o contexto anterior**, abaixo está o conteúdo completo e profissional de um `README.md` para o projeto do site do tatuador **Jean Art Tattoo Design**, refletindo o escopo real, tecnologias, diferenciais, processo e diretrizes.
-
----
-
-````markdown
 # Jean Art Tattoo Design – Website Oficial
 
 Este é o projeto oficial do site do tatuador **Jean Art Tattoo Design**, profissional especializado em realismo preto e cinza, com atendimento em **Bonfinópolis de Minas (MG)** e **Brasília (DF)**.
