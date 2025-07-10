@@ -241,7 +241,7 @@ const Home = () => {
             <Button
               asChild
               size="lg"
-              className="bg-yellow-500 hover:bg-yellow-600 text-black px-10 py-6 text-lg font-semibold"
+              className="bg-yellow-500 hover:bg-yellow-600 text-black px-10 py-10 text-lg font-semibold"
             >
               <a href={whatsappUrl} target="_blank" rel="noopener noreferrer" aria-label="Agendar consulta via WhatsApp">
                 Agendar Consulta via WhatsApp
