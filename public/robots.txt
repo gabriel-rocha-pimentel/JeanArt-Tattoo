@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://jeanart-tattoo.vercel.app/sitemap.xml
