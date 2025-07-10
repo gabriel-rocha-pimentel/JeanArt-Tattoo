@@ -103,7 +103,7 @@ const About = () => {
           >
             <div className="relative overflow-hidden rounded-lg shadow-2xl shadow-yellow-500/10">
               <img  alt="Jean Art Tattoo Design, tatuador especialista em realismo, trabalhando em seu estúdio"
-                className="w-full h-auto max-h-[500px] object-cover" src="../../public/assets/jean_profile.jpg" loading="lazy" />
+                className="w-full h-auto max-h-[500px] object-cover" src="/assets/jean_profile.jpg" loading="lazy" />
               <div className="absolute inset-0 bg-gradient-to-t from-black/50 to-transparent"></div>
             </div>
           </motion.div>
@@ -121,7 +121,7 @@ const About = () => {
           </h2>
           <div className="grid grid-cols-1 md:grid-cols-2 gap-8 items-center max-w-5xl mx-auto">
             <img  alt="Interior do estúdio de Jean Art Tattoo Design, um ambiente profissional e acolhedor"
-                className="w-full h-80 object-cover rounded-lg shadow-lg" src="../../public/assets/og-image.webp" loading="lazy" />
+                className="w-full h-80 object-cover rounded-lg shadow-lg" src="/assets/og-image.webp" loading="lazy" />
             <p className="text-base md:text-lg text-gray-300 leading-relaxed text-left max-w-screen-md">
               O estúdio foi projetado para ser mais do que um local de trabalho: é um santuário de criatividade e confiança. Cada detalhe foi pensado para garantir sua segurança, conforto e inspiração, desde a higiene impecável até a atmosfera acolhedora que te deixa à vontade para compartilhar sua histórico.
             </p>
@@ -181,7 +181,7 @@ const About = () => {
           <Button
             asChild
             size="lg"
-            className="bg-yellow-500 hover:bg-yellow-600 text-black font-semibold text-base"
+            className="bg-yellow-500 hover:bg-yellow-600 text-black font-semibold py-10 text-base"
           >
             <a href={whatsappUrl} target="_blank" rel="noopener noreferrer" aria-label="Conversar com Jean Art Tattoo Design via WhatsApp">
               Conversar com Jean Art Tattoo Design <ArrowRight className="w-4 h-4 ml-2" />
